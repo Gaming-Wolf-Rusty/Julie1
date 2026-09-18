@@ -30,7 +30,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # CHANGE THIS to the exact path of your website folder
-          path: './folder1/folder2' 
+          path: './page/mainPage' 
 
       - name: Deploy to GitHub Pages
         id: deployment
